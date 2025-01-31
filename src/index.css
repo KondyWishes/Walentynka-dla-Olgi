@@ -43,3 +43,11 @@ h6 {
 .image {
   @apply w-40 md:w-44 rounded-lg transition-all duration-300 ease-in-out border-2;
 }
+
+.heart-img {
+  @apply w-40 md:w-44 lg:w-64 -mx-5;
+}
+
+.paragraph {
+  @apply text-center md:text-lg lg:text-xl bg-accent p-2 rounded-lg w-full;
+}
