@@ -12,6 +12,9 @@ export default {
       backgroundImage: {
         "gradient-bg": "linear-gradient(135deg, #FFB6C1, #FF69B4, #E63946)",
       },
+      dropShadow: {
+        green: "0 0 1rem #4CAF50",
+      },
     },
   },
   plugins: [],
