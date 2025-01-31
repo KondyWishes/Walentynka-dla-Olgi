@@ -2,7 +2,7 @@ const Header = () => {
   return (
     <header className="flex flex-col justify-center items-center relative w-full">
       <img
-        src="/images/kondy_serce.png"
+        src="./images/kondy_serce.png"
         alt="<3"
         className="w-40 md:w-52 lg:w-64 rounded-lg transition-all duration-300 ease-in-out cursor-pointer drop-shadow-green"
       />

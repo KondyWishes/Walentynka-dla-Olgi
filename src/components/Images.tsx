@@ -25,7 +25,7 @@ const Images = () => {
       {images.map((image, index) => (
         <img
           key={image.id}
-          src={`/images/${image.src}`}
+          src={`./images/${image.src}`}
           alt={image.alt}
           className={`image transition-all duration-300 ease-in-out ${
             index === currentIndex

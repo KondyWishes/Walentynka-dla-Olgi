@@ -31,7 +31,7 @@ const Question = () => {
       </section>
       {isModalOpen && (
         <Modal isOpen={isModalOpen} onClose={toggleModal}>
-          <img src="/heart.svg" alt="Serce" className="w-32 md:w-48 lg:w-64" />
+          <img src="./heart.svg" alt="Serce" className="w-32 md:w-48 lg:w-64" />
           <p className="text-lg md:text-xl lg:text-2xl text-center">
             I teraz jestem szczęśliwy
             <br /> 😊😊😊

@@ -12,12 +12,12 @@ const App = () => {
         <Paragraphs />
         <div className="flex justify-center items-stretch gap-2">
           <img
-            src="/images/olga_serce.png"
+            src="./images/olga_serce.png"
             alt="Olga serce"
             className="heart-img"
           />
           <img
-            src="/images/kondy_serce2.png"
+            src="./images/kondy_serce2.png"
             alt="Kondy serce"
             className="heart-img scale-x-[-1]"
           />
