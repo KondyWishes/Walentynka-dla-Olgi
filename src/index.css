@@ -4,6 +4,8 @@
 
 :root {
   --primary: #f5f5f5;
+  --accent: #E63946;
+  --header: #F1A7C7;
   --gradient-bg: linear-gradient(90deg, #ffb6c1, #ff69b4, #e63946);
 }
 
@@ -54,4 +56,26 @@ h6 {
 
 .btn {
   @apply px-4 py-2 rounded-lg shadow-md transition-all duration-300 ease-in-out cursor-pointer hover:font-bold;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 12px; /* szerokość dla pionowego scrollbar */
+  height: 12px; /* wysokość dla poziomego scrollbar */
+}
+
+/* Tor (tło) scrollbara */
+::-webkit-scrollbar-track {
+  background: var(--accent); /* kolor tła */
+}
+
+/* Sam uchwyt (rączka) scrollbara */
+::-webkit-scrollbar-thumb {
+  background: var(--header);
+  border-radius: 10px; /* zaokrąglenie rączki */
+}
+
+/* Hover nad uchwytem */
+::-webkit-scrollbar-thumb:hover {
+  cursor: pointer;
 }
