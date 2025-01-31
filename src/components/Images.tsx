@@ -21,7 +21,7 @@ const Images = () => {
   }, [images.length]);
 
   return (
-    <div className="flex flex-col md:flex-row justify-center items-stretch gap-y-4 gap-x-8">
+    <section className="flex flex-col md:flex-row justify-center items-stretch gap-y-4 gap-x-8">
       {images.map((image, index) => (
         <img
           key={image.id}
@@ -34,7 +34,7 @@ const Images = () => {
           }`}
         />
       ))}
-    </div>
+    </section>
   );
 };
 

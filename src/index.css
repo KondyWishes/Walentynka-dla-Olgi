@@ -45,9 +45,13 @@ h6 {
 }
 
 .heart-img {
-  @apply w-40 md:w-44 lg:w-64 -mx-5;
+  @apply w-40 md:w-44 lg:w-64 -mx-5 drop-shadow-green;
 }
 
 .paragraph {
   @apply text-center md:text-lg lg:text-xl bg-accent p-2 rounded-lg w-full;
+}
+
+.btn {
+  @apply px-4 py-2 rounded-lg shadow-md transition-all duration-300 ease-in-out cursor-pointer hover:font-bold;
 }
